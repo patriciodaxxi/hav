@@ -19,6 +19,7 @@ class NodeType(DjangoObjectType):
         only_fields = (
             "name",
             "description",
+            "display_type",
             "tags",
             "depth",
             "id",
